@@ -128,7 +128,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKc-is-9w0">
-                                <rect key="frame" x="24" y="446" width="366" height="91"/>
+                                <rect key="frame" x="24" y="504" width="366" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -142,8 +142,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSZ-YC-33j">
-                                <rect key="frame" x="24" y="252" width="127" height="186"/>
+                                <rect key="frame" x="24" y="441" width="122" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11149317781690141" green="0.30474251760563381" blue="0.12577024647887325" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="View Trailer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="CSt-RZ-k1Y" kind="presentation" id="6oC-p7-jFd"/>
                                 </connections>
@@ -159,6 +163,7 @@
                         <outlet property="posterView" destination="gmi-0f-I3x" id="FDj-Gg-wg2"/>
                         <outlet property="synopsisLabel" destination="QKc-is-9w0" id="DSE-ZH-egz"/>
                         <outlet property="titleLabel" destination="D65-E0-QX5" id="Zs9-bt-f7V"/>
+                        <outlet property="viewTrailerButton" destination="DSZ-YC-33j" id="Lrk-78-QVB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qGx-Th-59y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

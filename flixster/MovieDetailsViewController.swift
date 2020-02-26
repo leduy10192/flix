@@ -16,6 +16,7 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var viewTrailerButton: UIButton!
     
     var movie: [String:Any]!
     
@@ -27,6 +28,7 @@ class MovieDetailsViewController: UIViewController {
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
         dateLabel.text = movie["release_date"] as? String
+        viewTrailerButton.layer.cornerRadius = 5
         
         let baseUrl = "https://image.tmdb.org/t/p/w185/"
         let posterPath = movie["poster_path"] as! String
