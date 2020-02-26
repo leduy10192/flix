@@ -23,8 +23,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 </p>
 
 ### Notes
-Collection View has changed a bit for Swift 5
-UIWebView has been deprecated, must use WKWebView instead.
+Collection View has changed a bit for Swift 5.  
+UIWebView has been deprecated, must use WKWebView instead. 
 
 ## Flix Part 1
 
