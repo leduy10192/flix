@@ -16,8 +16,11 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthough GIF
+<p float="left">
 <img src="http://g.recordit.co/ng5nw0HMoC.gif" width=250>
-<img src="http://g.recordit.co/r5raTGUlcH.gif" width=250><br>
+&nbsp&nbsp&nbsp&nbsp
+<img src="http://g.recordit.co/r5raTGUlcH.gif" width=250>
+</p>
 
 ### Notes
 Collection View has changed a bit for Swift 5
