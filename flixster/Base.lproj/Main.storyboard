@@ -134,6 +134,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RjB-UD-4UC">
+                                <rect key="frame" x="167" y="405" width="227" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2ej-xh-XnJ"/>
@@ -141,6 +148,7 @@
                     <navigationItem key="navigationItem" id="fG9-bJ-t1V"/>
                     <connections>
                         <outlet property="backdropView" destination="zVr-bl-WgP" id="PIq-U4-SVn"/>
+                        <outlet property="dateLabel" destination="RjB-UD-4UC" id="VeI-SH-XUa"/>
                         <outlet property="posterView" destination="gmi-0f-I3x" id="FDj-Gg-wg2"/>
                         <outlet property="synopsisLabel" destination="QKc-is-9w0" id="DSE-ZH-egz"/>
                         <outlet property="titleLabel" destination="D65-E0-QX5" id="Zs9-bt-f7V"/>
@@ -148,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qGx-Th-59y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1723" y="1040"/>
+            <point key="canvasLocation" x="-1723.1884057971015" y="1039.9553571428571"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JI7-bA-N9S">
